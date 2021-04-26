@@ -1,0 +1,19 @@
+Ecrire les requêtes permettant de répondre aux questions suivantes :
+
+	Quel est le nombre de pays présents dans la collection countries ?
+	
+			db.Countries.count()   ->  245 
+	
+	Quel est le nombre total des villes dans le monde représentées dans cette collection ?
+	
+	
+	
+	
+	Quelle est la superficie totale du continent africain ?
+	
+	Quelle est la population totale du continent africain ?
+	
+	Quel est le nombre de musulmans habitant le continent africain ?
+	
+	"La collection "Countries ne contient aucune specifacticaton sur les continents des differents pays"
+

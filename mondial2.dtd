@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT mondial (country+)>
+<!ELEMENT country (pays, capital, population, superficie, religion*, ville+, frontière*)>
+<!ELEMENT pays (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ELEMENT population (#PCDATA)>
+<!ELEMENT superficie (#PCDATA)>
+<!ELEMENT religion (#PCDATA)>
+<!ATTLIST religion
+          pourcentage CDATA #REQUIRED>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT frontière (#PCDATA)>
